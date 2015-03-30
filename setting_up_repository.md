@@ -27,6 +27,21 @@ This is a most common command for obtaining local development comment. It is imp
 
 * **git config --global --edit** - will open config file for editing
 
+### Config file example
+```
+[user] 
+name = John Smith
+email = john@example.com
+[alias]
+st = status
+co = checkout
+br = branch
+up = rebase
+ci = commit
+[core]
+editor = vim
+```
+
 * **git config --global user.name &lt;name&gt;**
 * **git config --global user.email &lt;email&gt;**
 * **git config --global alias &lt;alias-name&gt; &lt;git-command&gt;**
