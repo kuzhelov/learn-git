@@ -3,8 +3,8 @@
 ## git init
 
 * **git init** - initializes repository for current working directory
-* **git init <directory>** - initializes repository in the specified working directory
-* **git init --bare <directory>** - initializes repository without working directory
+* **git init &lt;directory&gt;** - initializes repository in the specified working directory
+* **git init --bare &lt;directory&gt;** - initializes repository without working directory
 
 ### Notes
 
@@ -15,8 +15,8 @@ Centralized remote repository should be always created with the 'bare' flag bein
 
 Clones an existing repository
 
-* **git clone <repository>** - clones the repository located at 'repository' onto a local machine.
-* **git clone <repo> <dir>** - clones the repository to 'dir'
+* **git clone &lt;repository&gt;** - clones the repository located at 'repository' onto a local machine.
+* **git clone &lt;repo> &lt;dir&gt;** - clones the repository to 'dir'
 
 ### Notes 
 
@@ -27,10 +27,10 @@ This is a most common command for obtaining local development comment. It is imp
 
 * **git config --global --edit** - will open config file for editing
 
-* **git config --global user.name <name>**
-* **git config --global user.email <email>**
-* **git config --global alias <alias-name> <git-command>**
-* **git config --system core.editor <editor>**
+* **git config --global user.name &lt;name&gt;**
+* **git config --global user.email &lt;email&gt;**
+* **git config --global alias &lt;alias-name&gt; &lt;git-command&gt;**
+* **git config --system core.editor &lt;editor&gt;**
 
 ### Notes 
 
