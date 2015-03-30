@@ -25,12 +25,12 @@ This is a most common command for obtaining local development comment. It is imp
 
 ## git config
 
-* **git config** --global --edit - will open config file for editing
+* **git config --global --edit** - will open config file for editing
 
-* **git config** --global user.name <name>
-* **git config** --global user.email <email>
-* **git config** --global alias <alias-name> <git-command>
-* **git config** --system core.editor <editor>
+* **git config --global user.name <name>**
+* **git config --global user.email <email>**
+* **git config --global alias <alias-name> <git-command>**
+* **git config --system core.editor <editor>**
 
 ### Notes 
 
