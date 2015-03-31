@@ -20,7 +20,7 @@ Clones an existing repository
 
 ### Notes 
 
-This is a most common command for obtaining local development comment. It is important to understand that Git's idea is the fact that all interaction are basedon repository-to-repository collaboration. It is possible to introduce an idea of Centralized Repository that will comply with this model - though it is not the mandatory thing that Git user is obligated to follow.
+This is a most common command for obtaining local development comment. It is important to understand that Git's idea is the fact that all interactions are based on repository-to-repository collaboration. It is possible to introduce an idea of Centralized Repository that will comply with this model - though it is not the mandatory thing that Git user is obligated to follow.
 
 
 ## git config
