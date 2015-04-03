@@ -18,11 +18,13 @@ All discussion is related to the contents of the .git in a working directory
   
 # Commands
     
-## git cat-file &lt;option&gt; &lt;object-file-hash&gt;
-  
+## git cat-file 
+
 Allow to view a content of the object file.  
-    
-**&lt;option&gt;** argument could be one of the following: 
+
+**git &lt;option&gt; &lt;object-file-hash&gt;**
+  
+where **&lt;option&gt;** argument could be one of the following: 
     
 + **-p** - detect object type and print its content in a [p]retty format
     
