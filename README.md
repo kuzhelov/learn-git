@@ -8,3 +8,4 @@ Practical notes for common git usage scenarios
   * [git config](setting_up_repository.md#git-config)
 
 * [Internals](internals.md)
+ * [git cat-file](internals.md#git-cat-file) 
