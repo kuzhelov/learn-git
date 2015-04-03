@@ -13,7 +13,7 @@ All discussion is related to the contents of the .git in a working directory
 * each object is stored in its corresponding location in the archived form. Use git cat-file command to view its content.
 * each object has one of the following types (in a hierarchical order):
   * **commit** - contains information about a particular commit
-  * **tree** - represents monitored files for the particular commit
+  * **tree** - represents monitored files for the particular commit (also known as ***"snapshot"***)
   * **blob** - represents file content per se
   
 # Commands
