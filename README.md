@@ -7,5 +7,9 @@ Practical notes for common git usage scenarios
   * [git clone](setting_up_repository.md#git-clone)
   * [git config](setting_up_repository.md#git-config)
 
+* [Branching and Merging](branching_and_merging.md)
+  * [git branch](branching_and_merging.md#git-branch)
+  
+
 * [Internals](internals.md)
  * [git cat-file](internals.md#git-cat-file) 
