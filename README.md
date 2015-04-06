@@ -13,3 +13,6 @@ Practical notes for common git usage scenarios
 
 * [Internals](internals.md)
  * [git cat-file](internals.md#git-cat-file) 
+
+* [Advanced Topics](advanced_topics.md)
+  * [branching](advanced_topics.md#branching) 
