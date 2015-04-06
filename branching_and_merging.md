@@ -4,7 +4,7 @@ A branch represents an independent line of development. Each branch results in a
 
 ##git branch
 
-Lets create, list, rename and delete branches. It does not let you switch between branches - that's why it is tightly integrated with the git checkout and git merge commands
+Lets create, list, rename and delete branches. It does not let you switch between branches - that's why it is tightly integrated with the `git checkout` and `git merge` commands
 
 * **git branch** - list all branches in the repository
 * **git branch `branch_name`** - create a new branch
