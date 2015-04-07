@@ -22,6 +22,17 @@ Lets create, list, rename and delete branches. It does not let you switch betwee
 * If you will try to use `git -d branch_name` without preliminary merging you will obtain a warning message and abort of the deletion operation. This behavior is intentional and aims to protect you from the possibility of loosing the entire line of the development due to the fact that after deletion of branch's head its commits would become unreachable without merging.
 * If you really want to delete the branch, use `git -D branch_name` instead
 
+## git checkout 
+
+Provides a way of switching between existing branches. Think of it as a way of switching between development lines.
+
+* **git checkout `existing-branch` - switch to (checkout) the specified branch. Git will try to preserve all changes that were made between switching - in case when switching procedure will introduce conflicts Git will reject it
+* **git checkout -b `new-branch` - a shorthand command for creating a branch and switching to it afterwards. An equivalent for `git branch new-branch`, `git checkout new-branch`
+
+### Notes
+
+`git checkout` works hand-in-hand with `git branch`. If you'd like to commense a work on a new feature, a new branch should be created with the `git branch` and HEAD pointer should be switched to it with `git checkout` afterwards. For each particular feature should be introduced its corresponding branch - it makes it very easy to try any experiments while working on different features at the same time.
+
 
 
 
