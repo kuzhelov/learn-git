@@ -33,6 +33,10 @@ Provides a way of switching between existing branches. Think of it as a way of s
 
 `git checkout` works hand-in-hand with `git branch`. If you'd like to commense a work on a new feature, a new branch should be created with the `git branch` and HEAD pointer should be switched to it with `git checkout` afterwards. For each particular feature should be introduced its corresponding branch - it makes it very easy to try any experiments while working on different features at the same time.
 
+### Detached HEAD
+
+Remember that HEAD always pointing to the current latest commit. In ***Detached HEAD*** state it points not on the latest commit of any of the branches - it warns that any changes to that particular state will be lost due to the fact that those will be introduced as an appendix of the branch's development line - there will be no any branch that will point to this new commit afterwards. In order to save your experiments in ***Detached HEAD*** state you should introduce an additional branch and save new commits to it.
+
 
 
 
