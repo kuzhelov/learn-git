@@ -37,6 +37,23 @@ Provides a way of switching between existing branches. Think of it as a way of s
 
 Remember that HEAD always pointing to the current latest commit. In ***Detached HEAD*** state it points not on the latest commit of any of the branches - it warns that any changes to that particular state will be lost due to the fact that those will be introduced as an appendix of the branch's development line - there will be no any branch that will point to this new commit afterwards. In order to save your experiments in ***Detached HEAD*** state you should introduce an additional branch and save new commits to it.
 
+## git merge
+
+Merging is a way of bringing forked development history back again - into the single mainstream development branch (i.e. `master` branch, for example). All `merge` commands perform into the currently selected branch.
+
+* **git merge `branch`** - merges specified branch into the current one. Merge algorithm will be detected automatically
+*  **git merge --no-ff `branch`** - `no fast-forward` mode - will always generate merge commit. This is useful for documenting all merges in your project's history
+
+### Notes
+After the isolated feature has been finished in its corresponding branch it should be merged into the main one. 
+
+### Merge strategies
+* **fast-forward** - will occur in case when there is a linear path from a current branch's head to the merged branch's head. In this case a head pointer of the current branch will be just moved to the head commit of the merged branch.
+* **3-way merge** - will occur if development history of the current branch has been diverged from the history of the merged branch. Merge algorithm will use three commits: two branch tips and their latest common ancestor commit. In this case the necessity of conficts solving could potentially occur.
+
+While you can use either of the two strategies, many developers prefer to use fast-forwarding one (facilitated through `git rebase`) for small fetures or bug-fixes while reserving 3-way merge for an integration of the long-running tasks.
+
+
 
 
 
