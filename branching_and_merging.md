@@ -26,8 +26,8 @@ Lets create, list, rename and delete branches. It does not let you switch betwee
 
 Provides a way of switching between existing branches. Think of it as a way of switching between development lines.
 
-* **git checkout `existing-branch` - switch to (checkout) the specified branch. Git will try to preserve all changes that were made between switching - in case when switching procedure will introduce conflicts Git will reject it
-* **git checkout -b `new-branch` - a shorthand command for creating a branch and switching to it afterwards. An equivalent for `git branch new-branch`, `git checkout new-branch`
+* **git checkout `existing-branch`** - switch to (checkout) the specified branch. Git will try to preserve all changes that were made between switching - in case when switching procedure will introduce conflicts Git will reject it
+* **git checkout -b `new-branch`** - a shorthand command for creating a branch and switching to it afterwards. An equivalent for `git branch new-branch`, `git checkout new-branch`
 
 ### Notes
 
