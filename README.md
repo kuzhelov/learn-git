@@ -9,6 +9,11 @@ Practical notes for common git usage scenarios
 
 * [Branching and Merging](branching_and_merging.md)
   * [git branch](branching_and_merging.md#git-branch)
+    * [Deleting Branches](branching_and_merging.md#deleting-branches)
+  * [git checkout](branching_and_merging.md#git-checkout)
+    * [Detached HEAD](branching_and_merging.md#detached-head) 
+  * [git merge](branching_and_merging.md#git-merge)
+    * [Merge Strategies](branching_and_merging.md#merge-strategies)
   
 
 * [Internals](internals.md)
