@@ -17,7 +17,11 @@ Practical notes for common git usage scenarios
   
 
 * [Internals](internals.md)
- * [git cat-file](internals.md#git-cat-file) 
+ * [hash values](internals.md#git-cat-file#hash-values)
+ * [reference files](internals.md#reference-files)
+ * [object files](internals.md#object-files)
+ * [commands](internals.md#commands)
+   * [git cat-file](internals.md#git-cat-file) 
 
 * [Advanced Topics](advanced_topics.md)
   * [branching](advanced_topics.md#branching) 
