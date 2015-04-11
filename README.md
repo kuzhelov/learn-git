@@ -7,6 +7,10 @@ Practical notes for common git usage scenarios
   * [git clone](setting_up_repository.md#git-clone)
   * [git config](setting_up_repository.md#git-config)
 
+* [Inspecting a Repository](inspecting_repository.md)
+  * [git show](inspecting_repository.md#git-show)
+  * [git log](inspecting_repository.md#git-log)
+
 * [Branching and Merging](branching_and_merging.md)
   * [git branch](branching_and_merging.md#git-branch)
     * [deleting branches](branching_and_merging.md#deleting-branches)
