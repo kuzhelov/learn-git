@@ -6,6 +6,7 @@ Practical notes for common git usage scenarios
   * [git init](setting_up_repository.md#git-init)
   * [git clone](setting_up_repository.md#git-clone)
   * [git config](setting_up_repository.md#git-config)
+    * [config file example](setting_up_repository.md#config-file-example) 
 
 * [Inspecting a Repository](inspecting_repository.md)
   * [git show](inspecting_repository.md#git-show)
