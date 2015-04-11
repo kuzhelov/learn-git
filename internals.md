@@ -1,6 +1,6 @@
 All discussion is related to the contents of the .git in a working directory
 
-# Hash values
+# Hash Values
 
 You will see hash values all over the place while working with Git due to the fact that Git stores everything in its database not by filename but by the hash value of its content (SHA-1).
 
